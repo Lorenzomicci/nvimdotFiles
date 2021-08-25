@@ -1,0 +1,9 @@
+source $HOME/.config/nvim/vim-plug/plugins.vim
+
+
+set ruler
+set showcmd
+
+let file_name = expand('%:t:r')
+
+map <F1> :terminal sudo pdflatex expand('%:t')
